@@ -1,0 +1,99 @@
+body {
+  color: #333;
+}
+
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover, .button:hover {
+  color: rgb(48, 162, 207) !important;
+}
+
+.versionsMenu {
+  text-align: center;
+  
+}
+a.version {
+  transition: all .5s;
+  background: none;
+  padding: 4px 7px;
+  border: 3px solid black;
+  color: black;
+  border-radius: 2px;
+  margin: 0px 6px;
+  /* display: inline-block; */
+}
+a.version:hover {
+  color: white;
+}
+.version.black:hover {
+  border-bottom: 3px solid black;
+  background: black;
+  color: white;
+}
+
+.version.color {
+  border: 3px solid rgb(48, 162, 207);
+  color: black;
+  background: none;
+  /* display: inline-block; */
+}
+.version.color:hover {
+  /* color: black; */
+  background:rgb(48, 162, 207);
+}
+
+.version.inactive {
+  border-color: #999;
+  background-color: #999;
+  color: #555;
+}
+
+.version.inactive.hover, .version.inactive:hover {
+  border-color: #999;
+  background-color: #999;
+  color: #555;
+  cursor: not-allowed;
+}
+
+
+/* ARTICLES */
+
+article>h2 {
+  margin: 1.5em 0 0em 0;
+  text-align: center;
+}
+
+article p,
+article a {
+  margin: 0 0 .6em 0;
+  text-align: center;
+}
+
+.tiles article {
+  padding-bottom: 20px;
+}
+
+article.style1.hover {
+  background-color: #fff280;
+}
+article.style2.hover {
+  background-color:#beecff;
+}
+article.style3.hover {
+  background-color:#bbfff8;
+}
+article.style4.hover {
+  background-color:#f7cacd;
+}
+article.style5.hover {
+  background-color:#dbd5f1;
+}
+article.style6.hover {
+  background-color:#ffd9b4;
+}
